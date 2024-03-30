@@ -1,0 +1,24 @@
+import './App.css';
+import './style.css'
+
+function PageTitle() {
+  return(
+    <div className='pageTitle'>
+
+      <h1>
+        Sign In to <br />
+        <span>Lorem Ipsum is simply!</span>
+      </h1>
+
+      <p>
+        If you don’t have an account register, <br />
+        You can <a href="#">Register Here!</a>
+      </p>
+
+      <img src="src/assets/hero.png" />
+
+    </div>
+  );
+};
+
+export default PageTitle;
