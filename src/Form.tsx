@@ -1,7 +1,12 @@
 import './Form.css'
+
 import { BiHide } from "react-icons/bi";
 import { BiShowAlt } from "react-icons/bi";
 import { useState } from 'react';
+
+import Facebook from './assets/Facebook.svg'
+import Apple from './assets/apple.svg'
+import Google from './assets/google.svg'
 
 function Form() {
 
@@ -44,13 +49,13 @@ function Form() {
 
             <div className='loginWithSocialMedia__links'>
                 <a href="#">
-                    <img src="src/assets/facebook.svg" />
+                    <img src={Facebook} />
                 </a>
                 <a href="#">
-                    <img src="src/assets/apple.svg" />
+                    <img src={Apple} />
                 </a>
                 <a href="#">
-                    <img src="src/assets/google.svg" />
+                    <img src={Google} />
                 </a>
             </div>
 

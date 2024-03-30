@@ -1,6 +1,8 @@
 import './App.css';
 import './style.css'
 
+import Hero from './assets/hero.png'
+
 function PageTitle() {
   return(
     <div className='pageTitle'>
@@ -15,7 +17,7 @@ function PageTitle() {
         You can <a href="#">Register Here!</a>
       </p>
 
-      <img src="src/assets/hero.png" />
+      <img src={Hero} />
 
     </div>
   );
